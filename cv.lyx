@@ -19,7 +19,7 @@
 % optional
 % \address{street and number}{postcode city}
 % '\\' adds a line break
-\address{Hammerstrasse 59}{8032 Zurich\\ Switzerland}
+\address{Hammerstrasse 59}{8032 Zurich}{Switzerland}
 
 % optional
 \mobile{+79 416 16 23}
@@ -171,13 +171,6 @@ status open
 January 27th, 1976
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.6cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Item
 Place of Birth
 \begin_inset ERT
@@ -193,13 +186,6 @@ status open
 Schlieren ZH, Switzerland
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.6cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Item
 Nationality
 \begin_inset ERT
@@ -213,13 +199,6 @@ status open
 \end_inset
 
 Swiss, Slovakian
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace -0.6cm
-\end_inset
-
-
 \end_layout
 
 \begin_layout Item
@@ -242,11 +221,74 @@ Work Experience
 \end_layout
 
 \begin_layout Entry
-2005--
+2012--2013
 \begin_inset Newline newline
 \end_inset
 
-today
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Software Developer
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Greenliff AG
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+FIXME.
+\end_layout
+
+\begin_layout Entry
+2005--2013
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -305,7 +347,8 @@ Technological transition from PHP + MySql to .NET + db4objects.
  Development of websites and web applications (C#, and some php).
  Complete rebuilding of IT infrastructure with focus on quality and security.
  Installation, configuration and maintenance of multiple linux-based servers
- (web, mail, ftp, ldap,...).
+ (web, mail, ftp, ldap,\SpecialChar \ldots{}
+).
  Introduction of various tools (wiki, code versioning system, ticket management
  system, task tracker).
 \end_layout
@@ -625,7 +668,7 @@ Complete rewrite of "PV" for graphical environments (C++, multi-platform).
 \end_layout
 
 \begin_layout Entry
-1993-1996
+1993--1996
 \begin_inset ERT
 status open
 
@@ -687,7 +730,7 @@ Design and development of "PV": system for the entry and storage of patient's
 \end_layout
 
 \begin_layout Entry
-1992-1993
+1992--1993
 \begin_inset ERT
 status open
 
@@ -806,7 +849,7 @@ Development of data conversion tools (C).
 \end_layout
 
 \begin_layout Entry
-1991-1992
+1991--1992
 \begin_inset ERT
 status open
 
@@ -1069,13 +1112,6 @@ status collapsed
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Language
 English
 \begin_inset ERT
@@ -1097,13 +1133,6 @@ status collapsed
 }{
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
 \end_inset
 
 
@@ -1157,13 +1186,6 @@ status open
 C#, Java, C++, C, Assembler
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Item
 \begin_inset ERT
 status open
@@ -1176,13 +1198,6 @@ status open
 \end_inset
 
 .NET / Mono
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
 \end_layout
 
 \begin_layout Item
@@ -1199,13 +1214,6 @@ status open
 object-oriented, functional and logical design and programing
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Item
 \begin_inset ERT
 status open
@@ -1220,13 +1228,6 @@ status open
 relational, hierarchical and object-oriented database design
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Item
 \begin_inset ERT
 status open
@@ -1239,13 +1240,6 @@ status open
 \end_inset
 
 XHTML, CSS, JavaScript, jQuery XML, XSLT, XPath, XSL-FO
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
 \end_layout
 
 \begin_layout Item
@@ -1319,13 +1313,6 @@ status open
 Literature (mostly english): technical and fictional
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Item
 \begin_inset ERT
 status open
@@ -1338,13 +1325,6 @@ status open
 \end_inset
 
 Mathematics and physics
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
 \end_layout
 
 \begin_layout Item
@@ -1361,13 +1341,6 @@ status open
 Psychology
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Item
 \begin_inset ERT
 status open
@@ -1382,13 +1355,6 @@ status open
 Theater plays
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
-\end_layout
-
 \begin_layout Item
 \begin_inset ERT
 status open
@@ -1401,13 +1367,6 @@ status open
 \end_inset
 
 Jogging, Tennis
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace -0.7cm
-\end_inset
-
-
 \end_layout
 
 \begin_layout Item
