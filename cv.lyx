@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass moderncv
 \begin_preamble
 \moderncvtheme[blue]{classic}
@@ -19,7 +21,7 @@
 % optional
 % \address{street and number}{postcode city}
 % '\\' adds a line break
-\address{Hammerstrasse 59}{8032 Zurich}{Switzerland}
+\address{Anna-Heer-Strasse 18}{8057 Zurich}
 
 % optional
 \mobile{+41 79 416 16 23}
@@ -30,7 +32,7 @@
 % \photo[height]{name}
 % 'height' is the height the picture is resized to
 % 'name' is the name of the picture file
-% \photo[64pt]{CV-image}
+\photo[96pt]{photo.png}
 
 % optional
 %\quote{"You only live twice." (an optional quote)}
@@ -41,40 +43,53 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 12
+\paperfontsize 11
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 1.8cm
+\topmargin 1cm
+\rightmargin 1.8cm
+\bottommargin 1cm
 \secnumdepth 2
 \tocdepth 2
 \paragraph_separation skip
@@ -114,7 +129,8 @@ status collapsed
 \begin_layout Plain Layout
 The moderncv class offers lots of customization possibilities; some are
  explained in the preamble of this document; for more information look at
- the documentation of the LaTeX-package 
+ the documentation of the \SpecialChar LaTeX
+-package 
 \series bold
 moderncv
 \series default
@@ -157,13 +173,11 @@ Personal Details
 \end_layout
 
 \begin_layout Item
-Date of Birth
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+Date of Birth
 \end_layout
 
 \end_inset
@@ -172,13 +186,11 @@ January 27th, 1976
 \end_layout
 
 \begin_layout Item
-Place of Birth
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+Place of Birth
 \end_layout
 
 \end_inset
@@ -187,357 +199,308 @@ Schlieren ZH, Switzerland
 \end_layout
 
 \begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
 Nationality
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
-Swiss, Slovakian
-\end_layout
-
-\begin_layout Item
-Family Status
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Single, no children
+Swiss, Slovak
 \end_layout
 
 \begin_layout Section
-Work Experience
+Work History
 \end_layout
 
 \begin_layout Entry
-2012--2013
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2014
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Scientific Staff Member (part-time)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+HSR Hochschule für Technik
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Rapperswil
+\end_layout
+
+\end_inset
+
+Role: Scrum Master and Software Engineer.
 \begin_inset Newline newline
 \end_inset
 
+Architecture and development of a web-based Precision Farming system (Ruby
+ on Rails, JavaScript/TypeScript, Leaflet library, various GIS tools).
+\end_layout
 
-\begin_inset ERT
+\begin_layout Entry
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+2012–2013
 \end_layout
 
 \end_inset
 
-Software Developer
-\begin_inset ERT
+
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-}{
+Senior Software Engineer (part-time)
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
 Greenliff AG
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-}{
+Zurich
 \end_layout
 
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-FIXME.
-\end_layout
-
-\begin_layout Entry
-2005--2013
+Development of a graphical configuration application for Smart Cards, in
+ a small Scrum team (C#, ASP.NET Web API, JavaScript, Knockout.js library,
+ Web Sockets, Chromium Embedded Framework).
 \begin_inset Newline newline
 \end_inset
 
+Development of a Jenkins plugin (Java).
+\begin_inset Newline newline
+\end_inset
 
-\begin_inset ERT
+Rewrite of an internal tool for time tracking (from Java to F#).
+\begin_inset Newline newline
+\end_inset
+
+Introduction of Git for all subsequent development projects at Greenliff.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+2005–2013
 \end_layout
 
 \end_inset
 
-CEO and Software Developer
-\begin_inset ERT
+
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-}{
+CEO and Software Engineer
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
 HotFeet GmbH
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-}{
+Zurich
 \end_layout
 
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
+Development of websites and web applications (C#, JavaScript, F# since 2011).
+\begin_inset Newline newline
 \end_inset
 
-Technological transition from PHP + MySql to .NET + db4objects.
- Development of websites and web applications (C#, and some php).
- Complete rebuilding of IT infrastructure with focus on quality and security.
- Installation, configuration and maintenance of multiple linux-based servers
- (web, mail, ftp, ldap,\SpecialChar \ldots{}
+Complete technological transition from PHP+MySQL to Mono+ASP.NET+db4objects.
+\begin_inset Newline newline
+\end_inset
+
+Complete rebuilding of internal web and mail hosting infrastructure with
+ focus on performance and security.
+ Installation, configuration and maintenance of multiple Linux-based servers
+ and services (web, mail, dns, ftp, ldap,\SpecialChar ldots
 ).
- Introduction of various tools (wiki, code versioning system, ticket management
- system, task tracker).
+ Introduction of various development tools (Wiki, code versioning system,
+ project and issue tracking system, task tracker).
 \end_layout
 
 \begin_layout Entry
-2002--2004
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+2003–2009
 \end_layout
 
 \end_inset
 
-Software Developer
-\begin_inset ERT
+
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-HotFeet GmbH
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Development of websites and web applications (php, and the occasional pinch
- of perl).
-\end_layout
-
-\begin_layout Entry
-2002--
-\begin_inset Newline newline
-\end_inset
-
-today
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
 Open Source Contributor
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 3
 status open
 
 \begin_layout Plain Layout
-
-}{
+Mono Project et al
 \end_layout
 
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Mono (intimate knowledge of class libraries and runtime): bug fixes, enhancement
-s and major rewrites of important components (Dictionary`2 class, Array.Sort
- methods, SQL where-clause parser and evaluator, regex matching engine).
+Mono: Major rewrite of important components (Dictionary class, Array.Sort
+ methods, SQL where-clause parser and evaluator), bug fixes (ASP.NET, xsp/mod_mon
+o), optimizations (Regex matching engine) and enhancements (C#, C).
+ Intimate knowledge of class libraries and runtime.
 \begin_inset Newline newline
 \end_inset
 
-NPlot: bug fixes, enhancements.
+NPlot: bug fixes, enhancements (C#).
 \begin_inset Newline newline
 \end_inset
 
-Typeface-js: bug fixes, enhancements.
+Typeface-js: bug fixes, enhancements (JavaScript).
 \end_layout
 
 \begin_layout Entry
-2000 April--July
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+2002–2004
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Software Engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+HotFeet GmbH
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Zurich
+\end_layout
+
+\end_inset
+
+Development of websites and web applications (PHP, and the occasional pinch
+ of Perl).
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2000
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Internship
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
 Theissen Security Systems AG
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Sissach, BL
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-}{
+Sissach
 \end_layout
 
 \end_inset
@@ -545,302 +508,250 @@ status open
 Analysis of the data flow and storage of a proposed client-server based
  E-commerce system with regard to security and applicable cryptographic
  methods and protocols.
- Development of a GUI prototype for the proposed system (Java).
+\begin_inset Newline newline
+\end_inset
+
+Development of a GUI prototype for the proposed system (Java, Swing library).
 \end_layout
 
 \begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
 1998
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Software Developer
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
 3C Systems AG
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Urdorf
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Design and development of testing software for a proprietary smart card
+Design and development of testing software for a proprietary Smart Card
  transfer protocol (C++).
 \end_layout
 
 \begin_layout Entry
-1995 October
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+1995
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Software Developer
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
 Ulrich Electronic GmbH
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Gleisdorf
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
 Austria
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
-Complete rewrite of "PV" for graphical environments (C++, multi-platform).
+Complete rewrite of PV for graphical environments (C++, zWindows library,
+ multi-platform).
 \end_layout
 
 \begin_layout Entry
-1993--1996
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+1993–1996
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Freelance Software Developer
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Koelliker AG
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 3
 status open
 
 \begin_layout Plain Layout
-
-}{
+Koelliker Büroautomation AG
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-}{
+Wallisellen
 \end_layout
 
 \end_inset
 
-Design and development of "PV": system for the entry and storage of patient's
- personal data for hospitals (C++).
- Development of driver for a proprietary form printer (C++).
- Development of driver for a smart card reader (C++).
+Design and development of 
+\begin_inset Quotes eld
+\end_inset
+
+PV
+\begin_inset Quotes erd
+\end_inset
+
+, a system for the entry and storage of patient's personal data for hospitals
+ (C++, Turbo Vision library).
+\begin_inset Newline newline
+\end_inset
+
+Development of a driver for a proprietary form printer (C++).
+\begin_inset Newline newline
+\end_inset
+
+Development of a driver for a Smart Card reader (C++).
 \end_layout
 
 \begin_layout Entry
-1992--1993
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+1992–1993
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Freelance Software Developer
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Industrielle Werke Basel
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 3
 status open
 
 \begin_layout Plain Layout
-
-}{
+IWB Industrielle Werke Basel
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-}{
+Basel
 \end_layout
 
 \end_inset
 
-Development of tool for the analysis of data from a proprietary time management
- system (C, assembler).
+Development of a tool for the analysis of data from a proprietary time managemen
+t system (C, Assembler).
 \end_layout
 
 \begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
 1992
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Freelance Software Developer
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
 WARO AG
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
+Basel
 \end_layout
 
 \end_inset
@@ -849,62 +760,46 @@ Development of data conversion tools (C).
 \end_layout
 
 \begin_layout Entry
-1991--1992
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+1991–1992
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Freelance Software Developer
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Koelliker AG
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 3
 status open
 
 \begin_layout Plain Layout
-
-}{
+Koelliker Büroautomation AG
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-}{
+Wallisellen
 \end_layout
 
 \end_inset
 
-Development of multiple small tools (C, assembler).
+Development of multiple small command line tools (C, Assembler).
 \end_layout
 
 \begin_layout Section
@@ -912,62 +807,36 @@ Education
 \end_layout
 
 \begin_layout Entry
-1996--2002
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+1996–2002
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Master of Computer Science
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
 ETH Zurich
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Focus on cryptography, security, and information theory, software architecture
+Focus on cryptography, security and information theory, software architecture
  and design patterns, the Unix architecture, computer graphics and image
  analysis.
 \begin_inset Newline newline
@@ -988,67 +857,385 @@ target "http://www.hotfeet.ch/about-us/papers/js/gap-between-intrinsic-info-and-
 \begin_inset Newline newline
 \end_inset
 
-Minor subject: business studies.
+Minor subject: Business Studies.
 \end_layout
 
 \begin_layout Entry
-2001--2002
-\begin_inset ERT
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+2001–2002
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
 Assistant for Lecture "Informatik III"
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
 \end_inset
 
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
 ETH Zurich
-\begin_inset ERT
+\end_layout
+
+\end_inset
+
+Programming paradigms: Functional Programming (Standard ML), Logical Programming
+ (Prolog) and Object-Oriented Programming (Java).
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-
-}{
+2001–2002
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-}{
+Didactic Training with Practical Guidance
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
+\begin_inset Argument 3
 status open
 
 \begin_layout Plain Layout
-
-}{
+ETH Zurich
 \end_layout
 
 \end_inset
 
-Programming paradigms: functional programming (SML), logical programming
- (Prolog) and object-oriented programming (Java).
+
+\end_layout
+
+\begin_layout Section
+Languages
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+German, Slovak
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+native
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+English
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+fluent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+French
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+basic
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+IT Skills
+\end_layout
+
+\begin_layout Subsection
+Excellent
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Languages
+\end_layout
+
+\end_inset
+
+C# (since 2003), F# (since 2011), Java, C++ 98, C, Assembler
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Platforms
+\end_layout
+
+\end_inset
+
+.NET and Mono (since 2003)
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Paradigms
+\end_layout
+
+\end_inset
+
+Object-Oriented Programming and GoF Design Patterns, Functional Programming
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Web
+\end_layout
+
+\end_inset
+
+ASP.NET, XHTML/HTML5, CSS/Sass, JavaScript, jQuery, Knockout.js, REST, Web
+ Sockets
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Databases
+\end_layout
+
+\end_inset
+
+MySQL, MS SQL Server, db4objects, Apache Lucene.net
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Data Interchange
+\end_layout
+
+\end_inset
+
+XML, XSLT/XPath, XSL-FO, Json
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+DevTools
+\end_layout
+
+\end_inset
+
+Git, Subversion, Jenkins, Atlassian Jira
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Methodologies
+\end_layout
+
+\end_inset
+
+Agile, Scrum, GTD
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+SysAdmin
+\end_layout
+
+\end_inset
+
+Linux (since v2.0, RedHat/Fedora, Debian): System and network administration,
+ shell scripting, virtualization (VMware, KVM + Qemu).
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Services: MySQL, Apache (http) + mod_mono, Postfix (smtp) + Dovecot (pop,
+ imap), PowerDNS, OpenLDAP, Nagios (monitoring), ProFTP, Spamassassin +
+ SQLGrey
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Good
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Languages
+\end_layout
+
+\end_inset
+
+Python, Ruby, TypeScript, Prolog, Perl
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Meta-Programming
+\end_layout
+
+\end_inset
+
+F# Code Quotations and Computation Expressions, F# Compiler Service AST/Symbols/
+Types, MSIL/System.Reflection.Emit, Mono.Cecil
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Basic
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Languages
+\end_layout
+
+\end_inset
+
+Haskell, Rust, LLVM IR
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Foundations
+\end_layout
+
+\end_inset
+
+Type Theory, Category Theory, Compiler Design
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1056,16 +1243,6 @@ Publications
 \end_layout
 
 \begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
 
 \emph on
 A New Measure for Conditional Mutual Information and its Properties
@@ -1083,304 +1260,113 @@ target "http://www.hotfeet.ch/about-us/papers/js/rsw03.pdf"
 \end_layout
 
 \begin_layout Section
-Languages
+Interests
 \end_layout
 
-\begin_layout Language
-German, Slovakian
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}{
+\begin_layout ListItem
+Literature (mostly english): technical and fictional, theater plays
 \end_layout
 
-\end_inset
-
-native
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}{
+\begin_layout ListItem
+Mathematics and Physics
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Language
-English
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-fluent
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Language
-French
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-basic
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-IT Skills
-\end_layout
-
-\begin_layout Subsection
-Excellent
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-C#, Java, C++, C, Assembler
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-.NET / Mono
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-object-oriented, functional and logical design and programming
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-relational, hierarchical and object-oriented database design
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-XHTML, CSS, JavaScript, jQuery XML, XSLT, XPath, XSL-FO
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Linux (since v2.0, Fedora, Debian): System and network administration, shell
- usage, shell scripting, MySQL, Apache (http), Postfix (smtp) / Dovecot
- (pop, imap), OpenLDAP, Nagios, ProFTP, Spamassassin (spamfilter), SQLGrey
- (greylisting spamfilter) CVS, SVN, git
-\end_layout
-
-\begin_layout Subsection
-Good
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-F#, SML, Python, Ruby, Prolog
-\end_layout
-
-\begin_layout Subsection
-Basic
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Perl, Mercury, LaTeX
-\end_layout
-
-\begin_layout Section
-Interests and Passions
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Literature (mostly english): technical and fictional
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Mathematics and physics
-\end_layout
-
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
+\begin_layout ListItem
 Psychology
 \end_layout
 
-\begin_layout Item
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
+\begin_layout ListItem
+Running, Tennis, Hiking
 \end_layout
+
+\begin_layout Section
+Links
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+LinkedIn Profile:
+\emph default
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.linkedin.com/in/juraj-skripsky-4338a217/"
 
 \end_inset
 
-Theater plays
+
 \end_layout
 
-\begin_layout Item
-\begin_inset ERT
-status open
+\begin_layout ListItem
 
-\begin_layout Plain Layout
-
-}{
-\end_layout
+\emph on
+GitHub Profile:
+\emph default
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/jskripsky"
 
 \end_inset
 
-Jogging, Tennis
+
 \end_layout
 
-\begin_layout Item
-\begin_inset ERT
-status open
+\begin_layout ListItem
 
-\begin_layout Plain Layout
+\emph on
+Mono Contributions:
+\emph default
 
-}{
-\end_layout
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/mono/mono/search?q=Skripsky&type=Commits"
 
 \end_inset
 
-Coffee
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+HotFeet Website:
+\emph default
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.hotfeet.ch/home.aspx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+GitHub Profile:
+\emph default
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/HotFeet"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
